@@ -20,3 +20,13 @@
 	
 	#part 4: t2 stores 1 if t1 is less than	t0.
 	
+	#part 5: t3 stores 2*t0.
+	add	$t3, $t0, $t0
+	
+	#part 6: t4 stores the 1’s complement of t0.
+	
+	
+	#part 7: t5 stores the 2’s complement of t0.
+	xori	$t5, $t0, 0xFF
+	addi	$t5, $t5, 1
+	
